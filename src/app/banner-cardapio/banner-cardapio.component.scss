@@ -1,0 +1,10 @@
+$cor-banner: #8A2BE2; 
+
+.banner {
+    background: $cor-banner;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10%;
+    
+}
