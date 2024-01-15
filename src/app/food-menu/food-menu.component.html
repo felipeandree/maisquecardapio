@@ -1,0 +1,13 @@
+<div class="menu-cardapio">
+    <div class="menu-item" *ngFor="let item of menuItems">
+      <div class="item-name">
+        {{ item.name }}
+      </div>
+      <div class="item-description">
+        {{ item.description }}
+      </div>
+      <div class="item-price">
+        R$ {{ item.price }}
+      </div>
+    </div>
+  </div>

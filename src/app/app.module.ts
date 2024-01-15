@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerCardapioComponent } from './banner-cardapio/banner-cardapio.component';
+import { FoodMenuComponent } from './food-menu/food-menu.component';
 
 
 
@@ -11,6 +12,7 @@ import { BannerCardapioComponent } from './banner-cardapio/banner-cardapio.compo
   declarations: [
     AppComponent,
     BannerCardapioComponent,
+    FoodMenuComponent,
   ],
   imports: [
     BrowserModule,
