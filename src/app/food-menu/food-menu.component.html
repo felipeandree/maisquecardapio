@@ -1,5 +1,8 @@
 <div class="menu-cardapio">
-    <div class="menu-item" *ngFor="let item of menuItems">
+    <div class="menu-item" *ngFor=" let item of dadosApi">
+      <div> 
+        <img [src]="item.image" alt="Imagem do prato" class="food-image">
+      </div>
       <div class="item-name">
         {{ item.name }}
       </div>
